@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook Page Integration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .btn-danger {
+            background-color: #f44336;
+            color: white;
+        }
+        .btn-danger:hover {
+            background-color: #da190b;
+        }
+        .btn-primary {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none; /* Add this line to remove the underline from the link */
+        }
+        .btn-primary:hover {
+            background-color: #0069d9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Facebook Page Integration</h2>
+        <p>Integrated Page: Amazon Business</p>
+        <button class="btn btn-danger" id="delete-integration">Delete Integration</button>
+        <a href="agent.html" class="btn btn-primary" id="reply-to-messages">Reply to Messages</a> <!-- Change this line -->
+    </div>
+
+    <script>
+        document.getElementById("delete-integration").addEventListener("click", function() {
+            // Add your code here to handle the "Delete Integration" button click
+            console.log("Delete Integration button clicked");
+        });
+        
+        // Remove this block of code as it's no longer needed
+    </script>
+
+</body>
+</html>
